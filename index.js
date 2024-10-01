@@ -1,54 +1,55 @@
-// const one = prompt("Ведіть 1")
-// const two = prompt("Ведіть 2")
+ const one = prompt("Ведіть 1")
+ const two = prompt("Ведіть 2")
 
-// if (one){
-//     console.log(one)
-// } else {
-//     alert("Текст не введено")
-// }
+ if (one){
+     console.log(one)
+ } else {
+     alert("Текст не введено")
+ }
 
-// if (two){
-//     alert("Обидва поля заповнені")
-//     console.log(two)
-// } else {
-//     alert("Текст не введено")
-// }
+ if (two){
+     alert("Обидва поля заповнені")
+     console.log(two)
+ } else {
+     alert("Текст не введено")
+ }
 //-------------------------------------------------
-// let one = Number(prompt("one"))
-// let two = Number(prompt("two"))
+ let three = Number(prompt("Ведіть число від 5"))
+ let four = Number(prompt("Ведіть число від 5"))
 
 
-// if (one + two > 10){
-// alert("Сума більша за 10")
-// } else {
-//     alert("Сума менша або дорівнює 10")
-// }
+ if ((three + four) > 10){
+ alert("Сума більша за 10")
+ } else {
+     alert("Сума менша або дорівнює 10")
+ }
+///-------------------------------------------------
+ let five = prompt("Ведіть текст який містить javascript")
+ let upFive = five.toUpperCase()
+ let check = upFive.includes("JAVASCRIPT")
+
+ if (check){
+     alert("Текст містить слово JavaScript")
+ } else {
+     alert("Текст не містить слово JavaScript")
+ }
 //-------------------------------------------------
-// let text = prompt("Ведіть текст")
-// let check = text.includes("JavaScript")
+ let text = Number(prompt("Ведіть цифру до 20"))
 
-// if (check){
-//     alert("Текст містить слово JavaScript")
-// } else {
-//     alert("Текст не містить слово JavaScript")
-// }
+ if (text >= 10 && text < 20){
+     alert("Число входить в діапазон від 10 до 20")
+ } else {
+     alert("Число не входить в діапазон від 10 до 20")
+ }
 //-------------------------------------------------
-// let text = Number(prompt("Ведіть текст"))
+let first = prompt("Ведіть ім'я").length
+let secont = prompt("Ведіть пошту").includes("@gmail.com")
+let third = prompt("Ведіть пароль").length
+console.log(first)
+console.log(secont)
+console.log(third)
 
-// if (text >= 10 && text < 20){
-//     alert("Число входить в діапазон від 10 до 20")
-// } else {
-//     alert("Число не входить в діапазон від 10 до 20")
-// }
-//-------------------------------------------------
-let one = prompt("Ведіть ім'я").length
-let two = prompt("Ведіть пошту").includes("@gmail.com")
-let three = prompt("Ведіть пароль").length
-console.log(one)
-console.log(two)
-console.log(three)
-
-if (one >= 6 && two === true && three >= 5) {
+if (first >= 6 && secont === true && third >= 5) {
     alert("Успішна реєстрація")
 } else{
     alert("Не все введено")
